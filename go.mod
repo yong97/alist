@@ -5,6 +5,7 @@ go 1.20
 require (
 	github.com/SheltonZhu/115driver v1.0.14
 	github.com/Xhofe/go-cache v0.0.0-20220723083548-714439c8af9a
+	github.com/Xhofe/rateg v0.0.0-20230728072201-251a4e1adad4
 	github.com/Xhofe/wopan-sdk-go v0.1.1
 	github.com/avast/retry-go v3.0.0+incompatible
 	github.com/aws/aws-sdk-go v1.44.262
@@ -42,14 +43,13 @@ require (
 	golang.org/x/oauth2 v0.10.0
 	gorm.io/driver/mysql v1.4.7
 	gorm.io/driver/postgres v1.4.8
-	gorm.io/driver/sqlite v1.4.4
-	gorm.io/gorm v1.24.5
+	gorm.io/driver/sqlite v1.5.2
+	gorm.io/gorm v1.25.2-0.20230530020048-26663ab9bf55
 )
 
 require (
 	github.com/BurntSushi/toml v0.3.1 // indirect
 	github.com/RoaringBitmap/roaring v1.2.3 // indirect
-	github.com/Xhofe/rateg v0.0.0-20230728072201-251a4e1adad4 // indirect
 	github.com/aead/ecdh v0.2.0 // indirect
 	github.com/aliyun/aliyun-oss-go-sdk v2.2.5+incompatible // indirect
 	github.com/andreburgaud/crypt2go v1.1.0 // indirect
@@ -106,7 +106,7 @@ require (
 	github.com/libp2p/go-flow-metrics v0.1.0 // indirect
 	github.com/libp2p/go-libp2p v0.26.3 // indirect
 	github.com/mattn/go-isatty v0.0.19 // indirect
-	github.com/mattn/go-sqlite3 v1.14.15 // indirect
+	github.com/mattn/go-sqlite3 v1.14.17 // indirect
 	github.com/minio/sha256-simd v1.0.0 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
